@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fonts-generator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div>
+
+        <h1>Fonts Generator</h1>
+        <input type="range" min="8" max="160" name="fz" id="fz" onchange="test()">
+        <select name="ff" id="ff" onchange="test()">
+            <option value="Cormorant">Cormorant</option>
+            <option value="Karla">Karla</option>
+            <option value="Lora">Lora</option>
+            <option value="Nunito">Nunito</option>
+            <option value="Roboto">Roboto</option>
+            <option value="RockSalt">RockSalt</option>
+        </select>
+        <input type="text" id="text" onchange="test()">
+        <h2 id="preview"></h2>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

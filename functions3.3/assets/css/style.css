@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+label {
+    font-size: 28px;
+}
+
+input {
+    margin-right: 1.5rem;
+}

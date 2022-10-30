@@ -1,0 +1,30 @@
+form {
+    margin: 20vh auto;
+    text-align: center;
+}
+
+label {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+button {
+    margin: 5% auto;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+
+
+button:hover {
+    background-color: rgb(160, 157, 157);
+    color: rgb(35, 34, 34);
+    cursor: pointer;
+}

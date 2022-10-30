@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Cormorant;
+    src: url("../fonts/Cormorant-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Karla;
+    src: url("../fonts/Karla-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Lora;
+    src: url("../fonts/Lora-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RockSalt;
+    src: url("../fonts/RockSalt-Regular.ttf");
+}
+
+h1 {
+    font-size: 54px;
+}
+
+div {
+    display: block;
+    margin: 20% auto;
+    width: 500px;
+}
